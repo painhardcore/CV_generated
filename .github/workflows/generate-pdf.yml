@@ -1,0 +1,39 @@
+name: Generate PDF and Update Release
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra
+
+      - name: Install GitHub CLI
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          sudo apt update
+          sudo apt install gh -y
+
+      - name: Convert Markdown to PDF
+        run: pandoc cv.md -o cv.pdf --pdf-engine=pdflatex
+
+      - name: Upload PDF to release
+        run: |
+          gh release upload latest-cv cv.pdf --clobber || \
+          (gh release create latest-cv --title "Latest CV" --notes "Latest version of the CV" && \
+           gh release upload latest-cv cv.pdf --clobber)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
