@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-
 permissions:
   contents: write
 
@@ -18,7 +17,7 @@ jobs:
       - name: Install Pandoc and TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended
 
       - name: Install GitHub CLI
         run: |
@@ -28,7 +27,7 @@ jobs:
           sudo apt install gh -y
 
       - name: Convert Markdown to PDF
-        run: pandoc cv.md -o cv.pdf --pdf-engine=pdflatex
+        run: pandoc cv.md -o cv.pdf --pdf-engine=pdflatex --template=template.latex
 
       - name: Upload PDF to release
         run: |

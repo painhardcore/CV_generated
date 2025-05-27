@@ -1,0 +1,56 @@
+% Setting up document class and essential packages
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% Define \tightlist for Pandoc compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Disable section numbering
+\setcounter{secnumdepth}{0}
+
+% Configuring page style
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\textbf{\Large $title$}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Customizing section headings
+\renewcommand{\section}[1]{\vspace{0.2cm}\noindent\textbf{\large #1}\vspace{0.1cm}\hrule\vspace{0.2cm}}
+\renewcommand{\subsection}[1]{\noindent\textbf{#1}\vspace{0.1cm}}
+
+% Customizing lists for compact formatting
+\setlist[itemize]{leftmargin=*,itemsep=0pt,parsep=0pt,topsep=2pt}
+\setlist[enumerate]{leftmargin=*,itemsep=0pt,parsep=0pt,topsep=2pt}
+
+% Setting up hyperlinks
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue
+}
+
+% Starting document
+\begin{document}
+
+% Inserting title (name) and contact info from YAML metadata
+\begin{center}
+  \textbf{\Huge $title$} \\
+  \vspace{0.2cm}
+  $if(contact-info)$
+    $contact-info$
+  $endif$
+\end{center}
+
+% Inserting main content
+$body$
+
+\end{document}

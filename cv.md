@@ -1,92 +1,87 @@
-# Andrei Iurchenkov
+---
+title: Andrei Iurchenkov
+contact-info: |
+  [GitHub: painhardcore](https://github.com/painhardcore) | Albi, France | +33 60 44 330 90 | job@yurchenkov.ru
+---
 
-[https://github.com/painhardcore](https://github.com/painhardcore)  
-Albi, France  
-+33 60 44 330 90  
-job@yurchenkov.ru  
-
-## EXPERIENCE
+## Experience
 
 ### Adjust — Software Senior Engineer  
 **France** *July 2021 – April 2025*
 
-As a core backend member, I played an instrumental role in developing and managing new measurement mechanics, including the SKAdNetwork. I ensured high performance and reliability for our backend.
+Core backend member developing measurement mechanics, including SKAdNetwork, ensuring high performance and reliability.
 
-*Key Responsibilities:*
-* Managed services with up to 900k RPS using Golang, Redis, PostgreSQL, Kafka, and Aerospike.
-* Led the development of new features and managed system escalations.
-* Conducted technical interviews, aiding in backend team growth.
-* Organized and participated in knowledge-sharing sessions.
-* Advocated for optimal solutions, driving overall system performance.
-
-*Notable Achievements:*
-* Developed tools like the on-call bot and PR review leaderboard to streamline operations.
-* Initiated a centralized platform for technical documentation.
-* Authored RFCs to refine system metrics, logging, and repository standards.
-* Set up a Kubernetes staging environment using Helmfile, Terraform, and AWS, and presented the results.
-* Took ownership of a pivotal feature that incorporated machine learning, concentrating on its optimization and readiness for onboarding new clients.
+- Managed services with up to 900k RPS using Golang, Redis, PostgreSQL, Kafka, Aerospike.
+- Led feature development and system escalations.
+- Conducted technical interviews, aiding backend team growth.
+- Organized knowledge-sharing sessions.
+- Advocated for optimal solutions, enhancing system performance.
+- **Achievements**:
+  - Built on-call bot and PR review leaderboard to streamline operations.
+  - Initiated centralized technical documentation platform.
+  - Authored RFCs for metrics, logging, and repository standards.
+  - Set up Kubernetes staging environment using Helmfile, Terraform, AWS.
+  - Owned machine learning feature, optimizing for new client onboarding.
 
 ### Dell Technologies — Software Senior Engineer  
 **Saint-Petersburg** *August 2018 – June 2021*
 
-* Have driven design and implementation of product features and improvements, working with the team to coordinate development efforts. (Go, Docker, Java, InfluxDB, GRPC, Grafana, K8S, Open-shift, CSI)
-* Develop and support Open Source product [https://github.com/dell/csi-baremetal](https://github.com/dell/csi-baremetal)
-* Support legacy system, migration to the new version (Java, Python)
-* Testing software with component, integration, system, acceptance fault injection testing (Python, Robot framework)
-* Work effectively with cross-functional and/or global teams, readily share information with others
-* Participated in internal hackathons
-* Used programming languages(sorted by usage): Golang, Python, Java, Groovy, C, C++.
+- Drove design and implementation of product features (Go, Docker, Java, InfluxDB, GRPC, Grafana, K8S, OpenShift, CSI).
+- Developed open-source [CSI Baremetal](https://github.com/dell/csi-baremetal).
+- Supported legacy system migration (Java, Python).
+- Tested software with component, integration, system, and fault injection testing (Python, Robot Framework).
+- Collaborated with cross-functional/global teams.
+- Participated in hackathons.
+- Languages: Golang, Python, Java, Groovy, C, C++.
 
 ### Leadgid — Software Senior Engineer  
 **Saint-Petersburg** *October 2017 – June 2018*
 
-* Creating new products and developing existing products. Developing backend services Developing B2B integrations with partners API
-* Designed and implemented data storage solutions (MySQL)
-* Integration end-to-end distributed tracing for microservices (Jaeger)
-* Created needed monitoring system for applications (Prometheus, Grafana)
-* Unit and Integration testing
-* Canary testing
-* Have written technical documentation for the system (Swagger, godoc)
-* Used programming languages: Golang
+- Developed products and B2B partner API integrations.
+- Designed data storage solutions (MySQL).
+- Integrated end-to-end distributed tracing (Jaeger).
+- Built monitoring system (Prometheus, Grafana).
+- Conducted unit, integration, and canary testing.
+- Wrote technical documentation (Swagger, godoc).
+- Language: Golang.
 
 ### Teorema Telecom — System Lead Engineer  
 **Saint-Petersburg** *April 2011 – November 2017*
 
-* Lead infrastructure team
-* Developing company corporate services. (Telegram bots, Customer portal, Inventory management system)
-* Responsible for administrating infrastructure (over 100 servers - OS Mac Os, Windows, Freebsd,Linux) corporate services (from NTP to LDAP).
-* Starting-up and adjustment work for hardware such as rack servers, blade systems, storage racks(Cisco, EMC, NetApp, HP, IBM, Fujitsu).
-* Coordinated changes across multiple systems
-* Management of the IT department during the complex modernization event in the whole company
-* Architect and development of the company’s IT infrastructure
-* Used programming languages: Python, Golang, Javascript (Fullstack)
+- Led infrastructure team, managing 100+ servers (Mac OS, Windows, FreeBSD, Linux).
+- Developed corporate services (Telegram bots, customer portal, inventory system).
+- Administered services (NTP, LDAP).
+- Managed hardware setup (Cisco, EMC, NetApp, HP, IBM, Fujitsu).
+- Coordinated multi-system changes and IT modernization.
+- Architected IT infrastructure.
+- Languages: Python, Golang, JavaScript (Fullstack).
 
-## EDUCATION
+## Education
 
 ### The Saint Petersburg State University of Civil Aviation  
 **Saint Petersburg** *2016*  
-Bachelor in 23.03.01 Transport Process Technology.
+Bachelor in Transport Process Technology (23.03.01).
 
-## FURTHER INFORMATION
+## Summary
 
-### Summary  
-I have development experience with Golang 8+ years, Python 5+ years. Experienced in creating microservice oriented distributed systems with high resilient and high availability practices.
+8+ years Golang, 5+ years Python. Expert in microservice-oriented, high-resilience distributed systems.
 
-### Other people about me  
-"You proved yourself as a good team player, experienced, reliable and responsible person with a positive attitude."  
-"Andrey is a great expert in the Go language. With his deep understanding of Go principles and design patterns Andrey makes a great job with consulting of different questions regarding this new technology which help us to improve our code."  
-"Once the team experienced the need for the new SCRUM master, Andrey volunteered to take this role and now drives most of the engineering ceremonies in the monitoring team. Moreover, Andrey is constantly looking for improvement of the process to make teammates work more efficient"
+## Testimonials
 
-## SKILLS
+- "Good team player, experienced, reliable, responsible, with a positive attitude."
+- "Great Go expert, improving code with deep understanding of principles and patterns."
+- "Volunteered as SCRUM master, driving engineering ceremonies and process improvements."
 
-* Programming languages: Go, Python, Javascript
-* Databases: PostgreSQL, Aerospike, Redis, Mysql, InfluxDB, Prometheus, MongoDB.
-* Message brokers: Kafka, NATS, RabbitMQ.
-* Virtualization and Containerization: VMware VSphere, Kubernetes, Docker, Openshift.
-* Project management: Agile, Scrum, Waterfall, Kanban
-* Other: SQL, GRPC, Distributed Tracing, Git, Vuejs
+## Skills
 
-## LANGUAGES
+- **Languages**: Go, Python, JavaScript
+- **Databases**: PostgreSQL, Aerospike, Redis, MySQL, InfluxDB, Prometheus, MongoDB
+- **Message Brokers**: Kafka, NATS, RabbitMQ
+- **Virtualization/Containerization**: VMware vSphere, Kubernetes, Docker, OpenShift
+- **Project Management**: Agile, Scrum, Waterfall, Kanban
+- **Other**: SQL, GRPC, Distributed Tracing, Git, Vue.js
 
-* Russian
-* English
+## Languages
+
+- Russian
+- English
