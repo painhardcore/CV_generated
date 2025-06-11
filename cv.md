@@ -1,7 +1,11 @@
 ---
-title: Andrei Iurchenkov
+title: "Andrei Iurchenkov"
+author: "Andrei Iurchenkov"
 contact-info: |
-  [GitHub: painhardcore](https://github.com/painhardcore) | Albi, France | +33 60 44 330 90 | job@yurchenkov.ru
+  **GitHub**: [painhardcore](https://github.com/painhardcore)  
+  **Location**: Albi, France  
+  **Phone**: +33 60 44 330 90  
+  **Email**: job@yurchenkov.ru
 ---
 
 ## Experience
