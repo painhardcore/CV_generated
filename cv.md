@@ -2,7 +2,7 @@
 title: "Andrei Iurchenkov"
 author: "Andrei Iurchenkov"
 contact-info: |
-  [GitHub: painhardcore](https://github.com/painhardcore) | [Linkedin](https://www.linkedin.com/in/ayurchen/) | Albi, France | +33 60 44 330 90 | job@yurchenkov.ru
+  [GitHub: painhardcore](https://github.com/painhardcore) | [Linkedin](https://www.linkedin.com/in/iurchenkov/) | Albi, France | +33 60 44 330 90 | job@iurchenkov.com
 ---
 
 ## Experience
