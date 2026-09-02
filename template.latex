@@ -43,7 +43,7 @@
 
 % Inserting title (name) and contact info from YAML metadata
 \begin{center}
-  \textbf{\Huge $title$} \\
+  \href{https://iurchenkov.com}{\textbf{\Huge $title$}} \\
   \vspace{0.2cm}
   $if(contact-info)$
     $contact-info$
